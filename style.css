@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: gold;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: end;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 40px;
+  border-bottom: 5px solid tomato;
+}
+a {
+  text-decoration: none;
+}
