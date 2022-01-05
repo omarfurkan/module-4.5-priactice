@@ -1,16 +1,18 @@
 body {
   margin: 0;
+
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
-  background-color: gold;
+  background-color: tomato;
   display: flex;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .half-width {
   width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 ul {
@@ -21,8 +23,86 @@ ul {
 li {
   display: inline-block;
   padding: 10px 40px;
-  border-bottom: 5px solid tomato;
+  border-bottom: 5px solid rgb(246, 220, 215);
 }
 a {
   text-decoration: none;
+}
+
+span {
+  color: red;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+  padding: 30px 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+p {
+  line-height: 24px;
+  text-align: justify;
+}
+
+.on-top {
+  padding-top: 50px;
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.on-top img {
+  padding-top: 30px;
+}
+
+.flexible-area {
+  display: flex;
+}
+
+.extra-bg {
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left 90%;
+}
+
+.on-drem {
+  padding-top: 50px;
+  background-image: linear-gradient(300deg, tomato, pink);
+  color: aliceblue;
+}
+.experence {
+  background-color: rgb(241, 241, 241);
+  padding: 50px 0;
+}
+
+.expetience-item {
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 15px 10px 25px #e2e0e0;
+  border-left: 5px solid;
+}
+
+#html {
+  border-image: linear-gradient(red, pink) 1;
+}
+#css {
+  border-image: linear-gradient(#927042, #3f51ee) 1;
+}
+#git {
+  border-image: linear-gradient(#083c5a, #c7ffc0) 1;
+}
+
+footer {
+  text-align: center;
+  background: darkblue;
+  color: white;
 }
