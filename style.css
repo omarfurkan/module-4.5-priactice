@@ -1,0 +1,67 @@
+i {
+  height: 50px;
+  width: 150px;
+  color: red;
+}
+
+div {
+  background-color: bisque;
+  height: 225px;
+  width: 40%;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* font-size: 50px; */
+  /* font-weight: 400; */
+  font-style: italic;
+  font-stretch: extra-condensed;
+  border: 5px solid gold;
+  text-align: center;
+  display: none;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.cls {
+  background-color: burlywood;
+  color: chocolate;
+  border: rgb(85, 61, 45);
+}
+
+#vop {
+  font-size: 100px;
+}
+
+span {
+  background-color: crimson;
+  color: rgb(39, 39, 33);
+  border: 5px solid gold;
+  height: 850px;
+  border-radius: 50%;
+  padding: 20px 50px 20px 25px;
+  display: inline-block;
+}
+
+small {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+h5 {
+  background: gold;
+  height: 100px;
+  width: 550px;
+  padding: 50px 50px;
+  border: 10px solid red;
+  margin: 150px 5px;
+  text-align: end;
+}
+a {
+  text-decoration: none;
+}
